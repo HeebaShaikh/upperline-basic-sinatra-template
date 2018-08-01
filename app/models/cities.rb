@@ -1,7 +1,7 @@
 class NYC
 
 @@options = {
-  :food => ["Gramercy Tavern","Balthazar","Grand Central Oyster bar", "Patsy’s Pizzeria", "Russ and Daughters", "Pisillo Italian Panini" ],
+  :food => ["Gramercy Tavern","Balthazar","Grand Central Oyster bar", "Patsy’s Pizzeria", "Russ and Daughters", "Pisillo Italian Panini", "The Apple Pan" ],
   :attractions => ["Empire State Building", "Statue of Liberty","Ellis Island", "Freedom Tower", "Metropolitan Museum of Art","Madame Tussauds"]
 }
 
