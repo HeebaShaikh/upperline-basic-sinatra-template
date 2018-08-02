@@ -26,7 +26,7 @@ class Miami
     
     @@options = {
         :food => ["Versailles Restaurant", "Michael's Genuine Food & Drink","Garcia's Seafood Grille & Fish","Yardbird Southern Table & Bar","Azucar Ice Cream Company","Ice Box Cafe"],
-        :attraction => ["Miami beach ", "Art Deco Historic District","Vizcaya Museum and Gardens","Everglades National Park","Bayside Marketplace","Bayfront Park"]
+        :attractions => ["Miami beach ", "Art Deco Historic District","Vizcaya Museum and Gardens","Everglades National Park","Bayside Marketplace","Bayfront Park"]
     }
     
     def initialize (choice)
@@ -37,21 +37,21 @@ class Miami
         @@options[:food]
     end
     
-    def self.attraction
-        @@options[:attraction]
+    def self.attractions
+        @@options[:attractions]
     end
     
 end
 
 puts Miami.food
-puts Miami.attraction
+puts Miami.attractions
 
 
 class LA
     
     @@options = {
         :food => ["Dan Tanas", "Guerrilla Taco", "Philippe The Original", "Newport Seafood Restaurant", "Jon and Vinny's"],
-        :attraction => ["Universal Studios Hollywood", "Griffith Park and Griffith Observatory", "Disneyland Resort", "Hollywood", "Santa Monica", "Natural History Museum"]
+        :attractions => ["Universal Studios Hollywood", "Griffith Park and Griffith Observatory", "Disneyland Resort", "Hollywood", "Santa Monica", "Natural History Museum"]
     }
     
     def initialize (choice)
@@ -69,4 +69,4 @@ class LA
 end
 
 puts LA.food
-puts LA.attraction
+puts LA.attractions
